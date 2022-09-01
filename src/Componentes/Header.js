@@ -9,14 +9,9 @@ import youtube from "../Assets/Statics/youtube.png"
 import ivoox from "../Assets/Statics/ivoox.png"
 import twitter from "../Assets/Statics/twitter.png"
 import MenuBar from './MenuBar'
-import { DateTime } from "luxon";
 
 
  function Header() {
-    const now = DateTime.now();
-
-    let dateTime = DateTime.local();
-     
 
   return (
     
