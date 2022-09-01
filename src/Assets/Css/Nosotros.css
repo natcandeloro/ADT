@@ -1,0 +1,30 @@
+h3 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#img-tamaño {
+    height: 240px;
+}
+
+@media (max-width: 1200px) {
+    .nosotros {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .col {
+        margin-bottom: 20px;
+    }
+}
+

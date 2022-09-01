@@ -1,0 +1,60 @@
+.footer {
+    background-color: #ffab00;
+    text-align: center;
+    padding-top: 25px;
+    position: relative;
+    font-size: 20px;
+}
+
+.footer p {
+    font-family: 'Segoe UI';
+    color: black;
+}
+
+.nati {
+    color: black;
+    text-align: end;
+    color: #dc3545;
+    padding-bottom: 8px;
+    padding-right: 25px;
+}
+
+.pfoot {
+    line-height: 15px;
+}
+
+.fzp {
+    width: 185px;
+    height: 50px;
+}
+
+.fzpcirculo {
+    width: 55px;
+    height: 43px;
+}
+.natpie {
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    .fzp {
+        width: 165px;
+        height: 35px;
+    }
+    
+    .fzpcirculo {
+        width: 45px;
+        height: 33px;
+    }
+
+    .pfoot {
+        line-height: 15px;
+        padding: 5px;
+        margin: 3px;
+    }
+}

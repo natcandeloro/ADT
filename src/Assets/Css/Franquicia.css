@@ -1,0 +1,106 @@
+.mendoza {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.h6 {
+    color: black;
+    font-size: 20px;
+}
+
+.contacdetalle {
+    font-size: 17px;
+    text-align: right;
+    font-style: italic;
+}
+
+figure {
+    display: flex;
+    height: 310px;
+    width: 260px;
+    border-radius: 50%;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    background-color: white;
+}
+
+.form-class {
+    margin-bottom: 15px; 
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    padding: 10px;
+    size: 500px;
+    box-sizing: border-box; 
+    border: none; 
+    color: #525c66; 
+    font-size: 1em;
+    resize: none; 
+}
+
+.mendoza {
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.mendoza:hover {
+    transform: scale(1.2);
+}
+
+.enviar {
+    margin-left: 2%;
+}
+
+.enviado {
+    background-color: #198754;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+    padding: 30px;
+}
+
+.enviando {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 30px;
+}
+
+.requerido {
+    font-weight: bold;
+    color: #dc3545;
+    font-size: 12px;
+    margin: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    figure {
+        height: 210px;
+        width: 190px;
+        margin-left: 2vw;
+    }
+
+    .contacdetalle {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .mendoza {
+        height: 185px;
+        width: 110px;
+    }
+
+    .h6 {
+        font-size: 15px;
+    }
+
+    .contacdetalle {
+        font-size: 15px;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,31 @@
+.espiritu {
+    margin: 4vw;
+    background-color: #fff3e0;
+    width: 90vw;
+    padding: 30px;
+}
+
+h6 {
+    text-align: justify;
+    font-size: 20px;
+    color: #000;
+    padding: 10px;
+}
+
+.sub {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+
+h6 {
+
+    font-size: 15px;
+    padding: 5px;
+}
+
+.sub {
+    font-size: 20px;
+}
+
+}

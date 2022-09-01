@@ -1,0 +1,85 @@
+.modal {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.is-open {
+    display: flex;
+}
+
+.modal-container {
+    position: relative;
+    padding: 2rem;
+    max-width: 700px;
+    min-height: 100px;
+    max-height: 700px;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.modal-close {
+    position: absolute;
+    top: 1rem;
+}
+
+h2 {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.logoradio {
+    width: 20%;
+    height: 20%;
+}
+
+.conductor {
+    width: 90px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.col {
+    text-align: right;
+}
+
+ol {
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .modal-container {
+        max-width: 280px;
+        max-height: 600px;
+    }
+    h2{
+        font-size:18px ;
+    }
+    .modal {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .logoradio {
+        width: 35%;
+        height: 33%;
+    }
+    
+    .conductor {
+        width: 70px;
+        height: 120px;
+        border-radius: 100%;
+    }
+
+    ol {
+        text-align: left;
+    }
+}
