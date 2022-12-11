@@ -1,0 +1,39 @@
+.contiene {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#ubicacion {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium';
+    color: #212121;
+    font-weight: bolder;
+}
+
+#temperatura-descripcion {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium';
+    color: #212121;
+    font-weight: bolder;
+
+}
+
+#temperatura-valor {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium';
+    color: #212121;
+    font-weight: bolder;
+
+}
+
+#caja1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    padding-top: 15px;
+    align-items: center;
+    width: 200px;
+    height: 200px; 
+}

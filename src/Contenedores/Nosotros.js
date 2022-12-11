@@ -1,63 +1,109 @@
-import zarraga from "../Assets/Statics/Zarraga.jpg"
-import Escudero from "../Assets/Statics/Escudero.jpeg"
-import candeloro from "../Assets/Statics/Candeloro.jpeg"
+import zarraga from "../Assets/Statics/staff/Zarraga.jpg"
+import Escudero from "../Assets/Statics/staff/Escudero.jpeg"
+import candeloro from "../Assets/Statics/staff/Candeloro.jpeg"
 import "../Assets/Css/Nosotros.css"
-import Taboada from "../Assets/Statics/Taboada.jpg"
-import Bustos from "../Assets/Statics/Bustos.jpeg"
+import Taboada from "../Assets/Statics/staff/Taboada.jpg"
+import Bustos from "../Assets/Statics/staff/Bustos.jpeg"
+import Perez from "../Assets/Statics/staff/Perez.jpeg"
+import Sarmiento from "../Assets/Statics/staff/Sarmiento.jpeg"
+import Aliquo from "../Assets/Statics/staff/Aliquo.jpeg"
+
 
 function Nosotros() {
   return (
-    <div className="espiritu">
- <div className="nosotros">
+    <div className="nosotros">
+      <div className="pepe">
    <div className="col">
-    <div className="card" Style="width: 12rem; height:470px">
+    <div className="card m-4" id="this">
       <img src={zarraga} id="img-tamaño" className="card-img-top" alt="Foto de Fernando Zárraga." />
-      <div className="card-body">
-        <h3>Fernando Zárraga</h3>
-        <p className="card-text">52 años</p>
-        <p className="card-text">Lic. en Comunicación Social </p>
-        <p className="card-text">Director General / Redes</p>
+      <div className="card-body fondo">
+        <h3>Fernando</h3> 
+        <h3>Zárraga</h3>
+        <p className="card-text somos">52 años</p>
+        <p className="card-text somos">Lic. en Comunicación Social </p>
+        <p className="card-text somos"><strong>Dirección General</strong><br/>Franquicias y Redes</p>
       </div>
 </div></div>
 <div className="col">
-<div className="card" Style="width: 12rem; height:470px">
+<div className="card m-4" id="this">
   <img src={Escudero} id="img-tamaño" className="card-img-top" alt="Foto de Paola Escudero."/>
-  <div className="card-body">
-    <h3>Paola Escudero</h3>
-    <p classNameName="card-text">45 años</p>
-    <p className="card-text">Coordinadora General </p>
+  <div className="card-body fondo">
+    <h3>Paola </h3>
+    <h3>Escudero</h3>
+    <p className="card-text somos">45 años</p>
+    <p className="card-text somos">Administrativa</p>
+    <p className="card-text somos"><strong>Administración y Comercial</strong></p>
   </div>
 </div></div>
 <div className="col">
-<div className="card" Style="width: 12rem; height:470px">
-  <img src={Taboada} id="img-tamaño" className="card-img-top" alt="Foto de Fernando Zárraga."/>
-  <div className="card-body">
-    <h3>Adrián Taboada</h3>
-    <p className="card-text">43 años</p>
-    <p className="card-text"> CEO 384 Group (Mendoza)</p>
-    <p className="card-text">Soporte Franquicias</p>
+<div className="card m-4" id="this" >
+  <img src={candeloro} id="img-tamaño" className="card-img-top" alt="Foto de Natalia Candeloro."/>
+  <div className="card-body fondo">
+    <h3>Natalia</h3>
+    <h3> Candeloro</h3>
+    <p className="card-text somos">29 años</p>
+    <p className="card-text somos">Estudiante de Programación</p>
+    <p className="card-text somos"><strong>Desarrollo Web</strong></p>
+  </div>
+</div></div></div>
+<div className="pepe">
+<div className="col">
+<div className="card m-4" id="this">
+  <img src={Taboada} id="img-tamaño" className="card-img-top" alt="Foto de Adrián Taboada."/>
+  <div className="card-body fondo">
+    <h3>Adrián</h3>
+    <h3> Taboada</h3>
+    <p className="card-text somos">43 años</p>
+    <p className="card-text somos"> CEO 384 Group (Mendoza)</p>
+    <p className="card-text somos"><strong>Soporte Franquicias</strong></p>
   </div>
 </div></div>
 <div className="col">
-<div className="card" Style="width: 12rem; height:470px">
-  <img src={Bustos} id="img-tamaño" className="card-img-top" alt="Foto de Fernando Zárraga."/>
-  <div className="card-body">
-    <h3>Liliana Pamela Bustos Nasi</h3>
-    <p className="card-text">49 años</p>
-    <p className="card-text"> Contadora Pública Nacional</p>
-    <p className="card-text">Asesoría Contable </p>
-  </div>
+    <div className="card m-4" id="this">
+      <img src={Aliquo} id="img-tamaño" className="card-img-top" alt="Foto de Gisela Aliquo" />
+      <div className="card-body fondo">
+        <h3>Gisela</h3> 
+        <h3>Aliquo</h3>
+        <p className="card-text somos">42 años</p>
+        <p className="card-text somos">Lic. en Comunicación Social</p>
+        <p className="card-text somos"><strong>Asesora Comercial Franquicias</strong></p>
+      </div>
 </div></div>
 <div className="col">
-<div className="card" Style="width: 12rem; height:470px">
-  <img src={candeloro} id="img-tamaño" className="card-img-top" alt="Foto de Fernando Zárraga."/>
-  <div className="card-body">
-    <h3>Natalia Candeloro</h3>
-    <p className="card-text">29 años</p>
-    <p className="card-text">Página Web</p>
+<div className="card m-4" id="this">
+  <img src={Bustos} id="img-tamaño" className="card-img-top" alt="Foto de Pamela Bustos."/>
+  <div className="card-body fondo">
+    <h3>Liliana Pamela</h3>
+    <h3> Bustos Nasi</h3>
+    <p className="card-text somos">49 años</p>
+    <p className="card-text somos"> Contadora Pública Nacional</p>
+    <p className="card-text somos"><strong>Asesoría Contable</strong> </p>
   </div>
+</div></div></div>
+<div className="pepe">
+<div className="col">
+    <div className="card m-4" id="this">
+      <img src={Perez} id="img-tamaño" className="card-img-top" alt="Foto de María Fernanda Pérez" />
+      <div className="card-body fondo">
+        <h3>María Fernanda</h3> 
+        <h3>Pérez</h3>
+        <p className="card-text somos">34 años</p>
+        <p className="card-text somos">Lic. en Diseño Gráfico </p>
+        <p className="card-text somos"><strong>Asesoría en Diseño Gráfico</strong></p>
+      </div>
 </div></div>
-</div></div>
+<div className="col">
+    <div className="card m-4" id="this">
+      <img src={Sarmiento} id="img-tamaño" className="card-img-top" alt="Foto de Emililiano Bustos Sarmiento" />
+      <div className="card-body fondo">
+        <h3>Emiliano</h3> 
+        <h3>Bustos Sarmiento</h3>
+        <p className="card-text somos">38 años</p>
+        <p className="card-text somos">Abogado</p>
+        <p className="card-text somos"><strong>Asesoría Jurídica</strong></p>
+      </div>
+</div></div></div>
+</div>
   )
 }
 export default Nosotros;

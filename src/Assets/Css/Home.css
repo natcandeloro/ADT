@@ -6,7 +6,6 @@
 .rounded { 
     width: 400px;
     height: 200px;
-
 }
 
 .d-flex {
@@ -14,9 +13,13 @@
     margin: 10px;
 }
 
+.align-content-center {
+    display: flex;
+}
+
 .m-4 {
-    height: 55vh;
-    width: 35vh;
+    height: auto;
+    width: 19vw;
 }
 
 .m-12 {
@@ -25,13 +28,20 @@
 
 .card-title {
     font-family: Verdana;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
 }
 
 .card-text {
     font-family: 'Franklin Gothic Medium';
     font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.card-text1 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
     color: black;
     text-align: center;
 }
@@ -45,11 +55,27 @@
     text-align: center;
 }
 
+.mas {
+    font-size: 13px;
+}
 
-@media (max-width: 768px) {
+#movil {
+    padding: 5px;
+    height: auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    }
+
+
+@media (max-width: 1480px) {
 
 .card-title {
-    font-size: 20px;
+    font-size: 40px;
+}
+
+.card-text1 {
+    font-size: 26px;
 }
 
 .card-text {
@@ -57,21 +83,84 @@
 }
 
 .card-title1 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
-#mobil {
+#movil {
     height: auto !important;
-    width: 33vh;
+    display: flex;
+    align-content: center;
+}
+
+.m-4 {
+    width: 22vw !important;
 }
 
 .m-12 {
     width: 73vw;
 }
 
-
 #col-principal {
     display: flex;
     justify-content: center;
 }
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media (max-width: 1400px) {
+    .m-4 {
+        width: 21vw !important;
+    }
+}
+
+@media only screen 
+  and (max-width: 838px) 
+  and (max-height: 1224px) 
+{
+    .align-content-center {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .m-4 {
+        height: auto;
+        width: 73vw !important;
+    }
+}
+
+@media (max-width: 808px) {
+    .card-title {
+        font-size: 25px;
+    }
+    
+    .card-text {
+        font-size: 13px;
+    }
+    
+    .card-title1 {
+        font-size: 20px;
+    }
+
+    .card-text1 {
+        font-size: 13px;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .align-content-center {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .m-4 {
+        height: auto;
+        width: 73vw !important;
+    }
 }

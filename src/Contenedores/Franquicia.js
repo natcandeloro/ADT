@@ -1,5 +1,5 @@
 import "../Assets/Css/Franquicia.css"
-import mendoza from "../Assets/Statics/mendoza.png"
+import mendoza from "../Assets/Statics/copia1.png"
 import Modal from '../Componentes/Modal'
 import { useModal } from '../hooks/useModal';
 import "../Assets/Css/Modal.css"
@@ -47,18 +47,19 @@ const Franquicia = () => {
 
   return (
     <div className='espiritu'>
-      <h6 className='h6'>El haber llegado a los 15 años de existencia con Aire de Trabajo nos hace mirar más hacia adelante. En una nueva instancia en pos de ese crecimiento, hemos decidido franquiciar el espacio, para replicar en la mayor parte de las geografías posibles nuestra propuesta periodística.</h6> 
-      <h6 className='h6'>Con el asesoramiento de la empresa 384 Group, especializada en franquicias y pymes, decidimos dar el paso fundamental.</h6>
+      <h6 className='h6'>El haber llegado a los 15 años de existencia con Aire de Trabajo nos hace mirar más hacia adelante. En una nueva instancia en pos de ese crecimiento, <strong>hemos decidido franquiciar el espacio</strong>, para replicar en la mayor parte de las geografías posibles nuestra propuesta periodística.</h6> 
+      <h6 className='h6'>Con el asesoramiento de la empresa <strong>384 Group</strong>, especializada en franquicias y pymes, decidimos dar el paso fundamental.</h6>
       <br />
       <br />
       <div className="d-flex align-content-center flex-wrap">
-            <div className="col"><h6 className='h6'>Estamos en:</h6>
-        <figure className="img-fluid"><img src={ mendoza }  alt="Mapa de Mendoza" onClick={openModal} className="mendoza img-fluid" /></figure>
+            <div className="col formulario"><h6 className='h6'>Ya estamos en:</h6>
+        <figure><img src={ mendoza }  alt="Mapa de Mendoza" onClick={openModal} className="mendoza img-fluid" /><h4 className="mza">Mendoza</h4></figure>
+        
       <Modal isOpen={isOpenModal} closeModal={closeModal}></Modal>
       </div>
-    <div className="col formulario">   
+    <div className="col formulario11">   
     
-    <h6 className='contacdetalle'>Si te gustan los desafíos y querés acompañarnos, <br/>te invitamos a dejar tus datos en la siguiente planilla, <br/>y a la brevedad nos estaremos comunicando para interiorizarte más.</h6> 
+    <h6 className='contacdetalle'>Si te gustan los desafíos y querés acompañarnos, te invitamos a dejar tus datos en la siguiente planilla, <br/>y a la brevedad nos estaremos comunicando para interiorizarte más.</h6> 
         <form className="form-class" onSubmit={handleSubmit}>
         <input 
         type="text" 

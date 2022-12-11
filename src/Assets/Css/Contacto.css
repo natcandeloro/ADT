@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
+
 
 .logoi {
     width: 35px;
@@ -12,10 +12,12 @@
     color: black;
 }
 
-.contacto {
+.col.contacto {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     text-align: justify;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .form-control {
@@ -24,7 +26,20 @@
 
 p a {
     color: black;
+    font-family: sans-serif;
     text-decoration: none;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: bold;
+
 }
 
 @media (max-width: 768px) {
@@ -35,14 +50,20 @@ p a {
     }
 
     h4 {
-        font-size: 20px;
+        font-size: 17px;
         font-weight: bold;
     }
 
-    .contacto {
+    h5 {
+        font-size: 17px;
+    }
+
+    .col.contacto {
         display: flex;
-        justify-content: center;
-        text-align: left;
+        flex-direction: column;
+        text-align: justify;
+        align-content: center;
+        flex-wrap: wrap;
     }
 
     a {
@@ -50,6 +71,15 @@ p a {
         color: black;
         text-decoration: none;
     }
+    
+    h6 {
+        font-size: 17px;
+    }
 
+    p a {
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+    }
 }
 

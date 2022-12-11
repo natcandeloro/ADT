@@ -3,17 +3,106 @@
     background-color: #fff3e0;
     width: 90vw;
     padding: 30px;
+    font-family: sans-serif;
+}
+
+.uno {    
+    background-color: #ffab00;
+}
+
+.dos { 
+    background-color: #FDFEFE;
+}
+
+.tres { 
+    background-color: #ffab00;
+}
+
+.cuatro {
+background-color: #FDFEFE;
+}
+
+.cinco {
+    background-color: #ffab00;
+}
+
+.seis {
+    background-color: #FDFEFE;
+}
+
+.siete {
+    background-color: #ffab00;
+}
+
+.col-espiritu {
+    width: 35vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: end;
+}
+
+.on {
+    display: none;
 }
 
 h6 {
     text-align: justify;
-    font-size: 20px;
     color: #000;
     padding: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.triangulo {
+    width: 90px;
+    height: auto;
+    color: #283593;
 }
 
 .sub {
     font-weight: bold;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+@media (max-width: 1350px) {
+    .sub {
+        font-size: 21px;
+    }
+
+    .triangulo {
+        width: 60px;
+    }
+}
+
+@media screen 
+and (max-width: 960px) 
+and (max-height: 1240px) 
+ {
+
+    .sub {
+        font-size: 19px;
+    }
+
+    .on {
+        display: block !important;
+    }
+
+    .triangulo {
+        width: 10px;
+    }
+
+    .col-espiritu {
+        padding-right: 15px;
+    }
+    
+}
+
+@media (max-width: 1050px) {
+    .triangulo {
+        width: 50px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -22,6 +111,24 @@ h6 {
 
     font-size: 15px;
     padding: 5px;
+}
+
+.d-flex.cel {
+    flex-direction: column;
+}
+
+.off {
+    display: none;
+}
+
+
+.sub {
+    font-size: 15px;
+}
+
+.col-espiritu {
+    width: 50vw;
+    justify-content: flex-start;
 }
 
 .sub {

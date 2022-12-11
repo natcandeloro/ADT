@@ -8,11 +8,11 @@
     background-color: #ffab00;
 }
 
-.fecha {
+.date {
     font-family: 'Segoe UI';
-    padding-top: 8px;
+    padding: 3px;
     font-size: 20px;
-    color: black;
+    color: #212121;
 }
 
 #logos {
@@ -26,9 +26,16 @@ nav {
     padding: 10px;
     margin: 10px;
     font-size: 25px;
-    font-family: sans-serif;
     list-style: none;   
     font-weight: bolder;
+}
+
+#prede {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -36,8 +43,11 @@ nav {
     margin: 0;
 }
 
+.cajatm {
+    width: 199px;
+}
 .logoletras {
-    width: 700px;
+    width: 900px;
 } 
 
 a {
@@ -61,27 +71,73 @@ a {
     border-radius: 10%;
 }
 
-#menu {
-    padding-left: 60px;
-    padding-right: 60px;
+.google {
+    font-family: sans-serif;
+    width: 100px;
+    border: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
-@media (max-width: 768px) {
+.google:hover {
+    background-color: #bdbdbd;
+}
+
+.bgoogle {
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 5px;
+}
+
+#menu {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: sans-serif;
+}
+
+.clima {
+    width: 200px;
+    height: 150px;
+}
+
+@media (max-width: 1300px){
+    nav a {
+        margin: 5px;
+        font-size: 20px;
+    }
+    
+   #menu {
+            padding-left: 30px;
+            padding-top: 5px;
+            padding-right: 30px;
+    }
+
+}
+@media (max-width: 990px) {
 
     nav a {
         margin: 5px;
         font-size: 15px;
     }
-    
     #menu {
-        padding-left: 40px;
-    }
+        padding-left: 30px;
+        padding-right: 30px;
+}
 
-    .active {
-        font-size: 20px;
-   
-        text-decoration: none;
-        border-radius: 10%;
+#prede {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.active {
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10%;
         border: 1px;
         background-color: transparent;
         }
@@ -95,13 +151,13 @@ a {
         height: 15px;
     }
 
-    .buscar {
+    .buscador {
         display: none;
     }
 
-    .fecha {
-        padding-top: 10px;
-        font-size: 15px;
+    .date {
+        font-size: 12px;
+   
     }
 
     a {

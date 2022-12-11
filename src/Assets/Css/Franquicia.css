@@ -2,24 +2,32 @@
     display: block;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 10px;
 }
 
 .h6 {
     color: black;
     font-size: 20px;
+    font-family: sans-serif;
+}
+
+.mza {
+    font-size: 15px;
 }
 
 .contacdetalle {
-    font-size: 17px;
+    font-size: 18px;
     text-align: right;
     font-style: italic;
 }
 
 figure {
     display: flex;
-    height: 310px;
-    width: 260px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    width: 210px;
     border-radius: 50%;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
     background-color: white;
@@ -27,7 +35,7 @@ figure {
 
 .form-class {
     margin-bottom: 15px; 
-    font-family: "Roboto", sans-serif;
+    font-family: sans-serif;
     width: 100%;
     padding: 10px;
     size: 500px;
@@ -38,9 +46,16 @@ figure {
     resize: none; 
 }
 
+.col.formulario11 {
+    display: flex;
+    flex-direction: row;
+}
+
 .mendoza {
     transition: 0.5s;
     object-fit: cover;
+    height: auto;
+    width: 99px;
 }
 
 .mendoza:hover {
@@ -55,6 +70,7 @@ figure {
     background-color: #198754;
     color: #fff;
     font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
     margin: 10px;
     padding: 30px;
 }
@@ -63,6 +79,7 @@ figure {
     color: black;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
     margin: 10px;
     padding: 30px;
 }
@@ -71,13 +88,40 @@ figure {
     font-weight: bold;
     color: #dc3545;
     font-size: 12px;
+    font-family: 'Franklin Gothic Medium';
     margin: 2px;
 }
 
-@media only screen and (max-width: 768px) {
+.align-content-center {
+    margin-left: 0;
+}
+
+@media only screen and (max-width: 1408px){
     figure {
         height: 210px;
         width: 190px;
+        margin-left: 2vw;
+    }
+
+    .mendoza {
+        height: auto;
+        width: 105px;
+    }
+
+    .mza {
+        font-size: 15px;
+    }
+
+    .col.formulario11 {
+        padding-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 868px) {
+    figure {
+        height: 190px;
+        width: 170px;
         margin-left: 2vw;
     }
 
@@ -87,8 +131,13 @@ figure {
     }
 
     .mendoza {
-        height: 185px;
-        width: 110px;
+        height: auto;
+        width: 90px;
+    }
+
+    .mza {
+        font-size: 15px;
+
     }
 
     .h6 {
@@ -97,6 +146,12 @@ figure {
 
     .contacdetalle {
         font-size: 15px;
+    }
+
+    .col.formulario11 {
+        display: flex;
+        flex-direction: column
+        
     }
 }
 
