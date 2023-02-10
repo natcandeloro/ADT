@@ -45,9 +45,9 @@ export default function Home() {
     <div id='movil'className="col">
         <div  className="card col m-4 shadow-lg noticias">
         <div className="card-body">
-            <h5 className="card-title1">¿Cuáles son los feriados que quedan de 2022?</h5>
-            <p className="card-text">Va terminando este año, pero aún nos quedan algunos feriados para poder viajar, o por qué no, descansar. En el siguiente link figura el calendario, para tener en cuenta y poder organizarse. </p>
-            <p ><a href="https://www.argentina.gob.ar/interior/feriados-nacionales-2022" className="mas" target="blank"> Ver más</a></p>
+            <h5 className="card-title1">¿Cuáles son los feriados de este 2023?</h5>
+            <p className="card-text">El año ya comenzó, y ya el Gobierno nacional publicó cuáles serán los off, para viajar y descansar. Estos son momentos ideales para proyectar con tiempo y aprovechar.</p>
+            <p ><a href="https://www.argentina.gob.ar/interior/feriados-nacionales-2023" className="mas" target="blank"> Ver más</a></p>
             <img className="rounded mx-auto d-block img-fluid" src={nota4} alt="calendario"/>
         </div>
         </div>
