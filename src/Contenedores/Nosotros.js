@@ -19,7 +19,6 @@ function Nosotros() {
       <div className="card-body fondo">
         <h3>Fernando</h3> 
         <h3>Zárraga</h3>
-        <p className="card-text somos">52 años</p>
         <p className="card-text somos">Lic. en Comunicación Social </p>
         <p className="card-text somos"><strong>Dirección General</strong><br/>Franquicias y Redes</p>
       </div>
@@ -30,7 +29,6 @@ function Nosotros() {
   <div className="card-body fondo">
     <h3>Paola </h3>
     <h3>Escudero</h3>
-    <p className="card-text somos">45 años</p>
     <p className="card-text somos">Administrativa</p>
     <p className="card-text somos"><strong>Administración y Comercial</strong></p>
   </div>
@@ -41,7 +39,6 @@ function Nosotros() {
   <div className="card-body fondo">
     <h3>Natalia</h3>
     <h3> Candeloro</h3>
-    <p className="card-text somos">29 años</p>
     <p className="card-text somos">Estudiante de Programación</p>
     <p className="card-text somos"><strong>Desarrollo Web</strong></p>
   </div>
@@ -53,7 +50,6 @@ function Nosotros() {
   <div className="card-body fondo">
     <h3>Adrián</h3>
     <h3> Taboada</h3>
-    <p className="card-text somos">43 años</p>
     <p className="card-text somos"> CEO 384 Group (Mendoza)</p>
     <p className="card-text somos"><strong>Soporte Franquicias</strong></p>
   </div>
@@ -64,7 +60,6 @@ function Nosotros() {
       <div className="card-body fondo">
         <h3>Gisela</h3> 
         <h3>Aliquo</h3>
-        <p className="card-text somos">42 años</p>
         <p className="card-text somos">Lic. en Comunicación Social</p>
         <p className="card-text somos"><strong>Asesora Comercial Franquicias</strong></p>
       </div>
@@ -75,7 +70,6 @@ function Nosotros() {
   <div className="card-body fondo">
     <h3>Liliana Pamela</h3>
     <h3> Bustos Nasi</h3>
-    <p className="card-text somos">49 años</p>
     <p className="card-text somos"> Contadora Pública Nacional</p>
     <p className="card-text somos"><strong>Asesoría Contable</strong> </p>
   </div>
@@ -87,7 +81,6 @@ function Nosotros() {
       <div className="card-body fondo">
         <h3>María Fernanda</h3> 
         <h3>Pérez</h3>
-        <p className="card-text somos">34 años</p>
         <p className="card-text somos">Lic. en Diseño Gráfico </p>
         <p className="card-text somos"><strong>Asesoría en Diseño Gráfico</strong></p>
       </div>
@@ -98,7 +91,6 @@ function Nosotros() {
       <div className="card-body fondo">
         <h3>Emiliano</h3> 
         <h3>Bustos Sarmiento</h3>
-        <p className="card-text somos">38 años</p>
         <p className="card-text somos">Abogado</p>
         <p className="card-text somos"><strong>Asesoría Jurídica</strong></p>
       </div>

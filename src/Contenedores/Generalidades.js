@@ -31,7 +31,7 @@ export default function Historia() {
           <div className='d-flex cel'>
           <div className='col-espiritu'><h4 className='sub'>TRAYECTORIA<HiChevronDoubleRight className='triangulo off'/></h4></div>
           <div className='col cuatro'><h6 className='cuatro'>El programa comenzó el 2 de septiembre de 2007, e ininterrumpidamente se mantuvo en los diales de Mendoza.
-          Ellos son: AM 780 LV8 Radio libertador (7 años en dos etapas), FM 90.1 Radio Andina (5 años), FM 94.1 Radio La Red Mendoza (1 año) y FM 102.5 Radio Noticias Mendoza (2 años).
+          Ellos son: AM 780 LV8 Radio libertador (7 años en dos etapas), FM 90.1 Radio Andina (5 años), FM 94.1 Radio La Red Mendoza (1 año) y FM 102.5 Radio Noticias Mendoza (3 años).
           </h6></div></div>
           <div className='d-flex cel'>
           <div className='col-espiritu'><h4 className='sub'>VISIÓN<HiChevronDoubleRight className='triangulo off'/></h4></div>
