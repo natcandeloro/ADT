@@ -29,16 +29,16 @@ const Modal =({Children, isOpen, closeModal})=> {
               <h6 >Nos auspician:</h6> 	
                 <ol><FaLongArrowAltRight className="ol"/>AMPROS</ol>
                 <ol><FaLongArrowAltRight className="ol"/>AOMA (Secc. Mza.)</ol>
-                <ol><FaLongArrowAltRight className="ol"/>APA (Asoc. Personal Aeronáutico)</ol>
                 <ol><FaLongArrowAltRight className="ol"/>APJ Gas</ol>
                 <ol><FaLongArrowAltRight className="ol"/>Asoc. Gremial Empleados y Funcionarios del Poder Judicial de Mza.</ol>
+                <ol><FaLongArrowAltRight className="ol"/>ATE (Secc. Mza.)</ol>
                 <ol><FaLongArrowAltRight className="ol"/>ATSA (Secc. Mza.)</ol>
-                <ol><FaLongArrowAltRight className="ol"/>CEC, Mendoza</ol>
+                <ol><FaLongArrowAltRight className="ol"/>CEC Mendoza</ol>
                 <ol><FaLongArrowAltRight className="ol"/>Concejo Deliberante de Guaymallén</ol>
                 <ol><FaLongArrowAltRight className="ol"/>Coop. Electrificación Rural Alto Verde y Algarrobo Grande Ltda.</ol>
                 <ol><FaLongArrowAltRight className="ol"/>FADIUNC</ol>
-                <ol><FaLongArrowAltRight className="ol"/>FOEVA</ol>
                 <ol><FaLongArrowAltRight className="ol"/>Gobierno de Mendoza</ol>
+                <ol><FaLongArrowAltRight className="ol"/>Instituto Provincial de la Vivienda</ol>
                 <ol><FaLongArrowAltRight className="ol"/>Municipalidad de la Ciudad de Mendoza</ol>
                 <ol><FaLongArrowAltRight className="ol"/>Municipalidad de La Paz</ol>
                 <ol><FaLongArrowAltRight className="ol"/>Municipalidad de Luján de Cuyo</ol>
@@ -46,11 +46,7 @@ const Modal =({Children, isOpen, closeModal})=> {
                 <ol><FaLongArrowAltRight className="ol"/>Municipalidad de San Carlos</ol>
                 <ol><FaLongArrowAltRight className="ol"/>Municipalidad de San Rafael</ol>
                 <ol><FaLongArrowAltRight className="ol"/>SAT SAID</ol>
-                <ol><FaLongArrowAltRight className="ol"/>Sindicato Canillitas Mendoza</ol>
-                <ol><FaLongArrowAltRight className="ol"/>SOETEM (Sind. Obreros y Empl. Telefónicos Mendoza)</ol>
-                <ol><FaLongArrowAltRight className="ol"/>SOEVA Maipú</ol>
                 <ol><FaLongArrowAltRight className="ol"/>SUOES (Sind. Unión Obrera Estaciones de Servicio de Cuyo)</ol>
-                <ol><FaLongArrowAltRight className="ol"/>SUPEh (Secc. Mza.)</ol>
                 <ol><FaLongArrowAltRight className="ol"/>Unión Obrera Ladrillera Rep. Argentina (Secc. Mza.)</ol>
                 <ol><FaLongArrowAltRight className="ol"/>UPSA (Unión del Pers. Superior y Prof. de Empresas Aerocomerciales)</ol> 
         {Children}

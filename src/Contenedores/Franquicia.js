@@ -47,7 +47,7 @@ const Franquicia = () => {
 
   return (
     <div className='espiritu'>
-      <h6 className='h6'>El haber llegado a los 15 años de existencia con Aire de Trabajo nos hace mirar más hacia adelante. En una nueva instancia en pos de ese crecimiento, <strong>hemos decidido franquiciar el espacio</strong>, para replicar en la mayor parte de las geografías posibles nuestra propuesta periodística.</h6> 
+      <h6 className='h6'>El presente nos hace mirar más hacia adelante. En una nueva instancia de crecimiento, hemos decidido expandir el programa a todo el país.</h6> 
       <h6 className='h6'>Con el asesoramiento de la empresa <strong>384 Group</strong>, especializada en franquicias y pymes, decidimos dar el paso fundamental.</h6>
       <br />
       <br />
@@ -57,67 +57,6 @@ const Franquicia = () => {
         
       <Modal isOpen={isOpenModal} closeModal={closeModal}></Modal>
       </div>
-    <div className="col formulario11">   
-    
-    <h6 className='contacdetalle'>Si te gustan los desafíos y querés acompañarnos, te invitamos a dejar tus datos en la siguiente planilla, <br/>y a la brevedad nos estaremos comunicando para interiorizarte más.</h6> 
-        <form className="form-class" onSubmit={handleSubmit}>
-        <input 
-        type="text" 
-        name="name" 
-        className="form-class" 
-        placeholder="Nombre" 
-        onBlur={handleBlur}
-        onChange={handleChange}
-        value={form.name}
-        required=""/>   
-        {errors.name && <p className="requerido">{errors.name}</p>}
-        <input 
-        type="text" 
-        name="phone" 
-        className="form-class" 
-        placeholder="Teléfono" 
-        onBlur={handleBlur}
-        onChange={handleChange}
-        value={form.phone}
-        required=""/>
-        {errors.phone && <p className="requerido">{errors.phone}</p>}
-        <input 
-        type="email" 
-        name="email" 
-        className="form-class" 
-        placeholder="E-mail" 
-        onBlur={handleBlur}
-        onChange={handleChange}
-        value={form.email}
-        required=""/>
-        {errors.email && <p className="requerido">{errors.email}</p>}
-        <input 
-        type="text" 
-        name="residencia" 
-        className="form-class" id="" 
-        placeholder="Lugar de Residencia" 
-        onBlur={handleBlur}
-        onChange={handleChange}
-        value={form.residencia}
-        required=""/>
-        {errors.residencia && <p className="requerido">{errors.residencia}</p>}
-        <textarea 
-        name="mensaje" 
-        className="form-class" 
-        placeholder="Mensaje" 
-        cols="50"
-        rows="5"
-        onBlur={handleBlur}
-        onChange={handleChange}
-        value={form.mensaje}
-        required="">
-        </textarea>
-        {errors.mensaje && <p className="requerido">{errors.mensaje}</p>}
-        <input type="submit" value="Enviar" className="enviar"/>
-    </form>
-        {loading && <p className="enviando">Enviando...</p>}
-        {reponse && <p className="enviado">"Los datos han sido enviados"</p>}
-    </div>
 </div>
   </div>
     )

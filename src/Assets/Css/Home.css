@@ -17,7 +17,7 @@
     display: flex;
 }
 
-.m-4 {
+.cajashome {
     height: auto;
     width: 19vw;
 }
@@ -92,7 +92,7 @@
     align-content: center;
 }
 
-.m-4 {
+.cajashome {
     width: 22vw !important;
 }
 
@@ -112,7 +112,7 @@
 }
 
 @media (max-width: 1400px) {
-    .m-4 {
+    .cajashome {
         width: 21vw !important;
     }
 }
@@ -126,7 +126,7 @@
         flex-direction: column !important;
     }
 
-    .m-4 {
+    .cajashome {
         height: auto;
         width: 73vw !important;
     }
@@ -159,7 +159,7 @@
         flex-direction: column;
     }
 
-    .m-4 {
+    .cajashome {
         height: auto;
         width: 73vw !important;
     }

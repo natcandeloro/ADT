@@ -26,6 +26,8 @@
 }
 .nati {
     font-size: 15px;
+    padding: 8px;
+    margin: 8px;
     font-family: 'Segoe UI';
     color: black;
     text-align: end;

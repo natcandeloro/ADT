@@ -13,7 +13,7 @@ function BasicExample() {
           <Nav  className="me-auto" >
             <NavLink to="/Nosotros"  id='menu' activeclassname="active">Nosotros</NavLink>
             <NavLink to="/Generalidades" id='menu' activeclassname="active">Espíritu</NavLink>
-            <NavLink to="/Franquicia" id='menu' activeclassname="active">Franquicias</NavLink>
+            <NavLink to="/Programas" id='menu' activeclassname="active">Programas</NavLink>
             <NavLink to="/Galeria"  id='menu' activeclassname="active">Galería</NavLink>
             <NavLink to="/Contacto" id='menu' activeclassname="active">Contacto</NavLink>
           </Nav>
